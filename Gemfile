@@ -69,6 +69,7 @@ end
 
 group :production do
   gem 'pg'
+  gem 'jekyll', '~> 4.2', '>= 4.2.2'
 end
 
 group :test do
